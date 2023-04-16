@@ -44,7 +44,10 @@ public class Vetor {
             else System.out.printf("notas[%d] = %2d\n", i, notas[i]);
         }
 
+        int media = soma / n;
+
         System.out.printf("\nSoma = %d\n", soma);
+        System.out.printf("\nMédia = %d\n", media);
     }
 }
 
